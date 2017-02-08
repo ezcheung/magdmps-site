@@ -42,6 +42,7 @@ body {
 .btn {
   min-height: 40px;
   cursor: pointer;
+  border: 1px solid black;
 }
 
 #spiel {
