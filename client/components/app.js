@@ -4,10 +4,10 @@ import Banner from './banner';
 
 export default class App extends React.Component {
   
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      
+      currentPage: this.props.params.page || 'about'
     };
   }
 
