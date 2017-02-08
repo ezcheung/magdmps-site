@@ -1,0 +1,25 @@
+#banner {
+  text-align: center;
+  height: 15%;
+}
+
+#navbar {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#aboutbtn{
+  flex: 1;
+}
+
+#buybtn{
+  flex: 2;
+}
+
+#castbtn{
+  flex: 1;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from './navbar';
 
 export default class Banner extends React.Component {
   constructor(props) {
@@ -8,8 +9,9 @@ export default class Banner extends React.Component {
 
   render() {
     return (
-      <div className="banner">
+      <div id="banner">
         <h1>Anything Goes</h1>
+        <Navbar/>
       </div>
     )
   }
