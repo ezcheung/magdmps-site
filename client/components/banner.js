@@ -11,7 +11,7 @@ export default class Banner extends React.Component {
     return (
       <div id="banner">
         <h1 id="bigTitle">Anything Goes</h1>
-        <Navbar/>
+        <Navbar navTo={this.props.navTo}/>
       </div>
     )
   }
