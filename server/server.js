@@ -10,6 +10,10 @@ app.get('/bundle.js',
   })
 );
 
+app.get('*',function (req, res) {
+  res.redirect('/');
+});
+
 var port = process.env.PORT || 8080;
 app.listen(port);
 console.log("Listening on localhost:" + port);
