@@ -1,3 +1,7 @@
+#app {
+  font-family: Sansita, sans-serif;
+}
+
 #banner {
   text-align: center;
   height: 15%;
@@ -5,6 +9,7 @@
 
 #navbar {
   width: 80%;
+  height: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,4 +27,9 @@
 
 #castbtn{
   flex: 1;
+}
+
+.btn {
+  min-height: 40px;
+  cursor: pointer;
 }

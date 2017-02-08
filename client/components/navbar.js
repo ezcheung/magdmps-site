@@ -8,9 +8,9 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <div id="navbar">
-        <button id="aboutbtn">About</button>
-        <button id="buybtn">Get Tickets</button>
-        <button id="castbtn">Cast & Crew</button>
+        <button id="aboutbtn" className="btn">About</button>
+        <button id="buybtn" className="btn">Get Tickets Now</button>
+        <button id="castbtn" className="btn">Cast & Crew</button>
       </div>
     )
   }
