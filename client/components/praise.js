@@ -10,7 +10,7 @@ export default class Praise extends React.Component {
       },
       {
         title: "Joseph and the Amazing Technicolor Dreamcoat (2014)",
-        ratings: ["'★★★★' - Varsity'", "'8/10' - TCS"]
+        ratings: ["'★★★★' - Varsity", "'8/10' - TCS"]
       },
       {
         title: "How to Succeed in Business Without Really Trying (2013)",
@@ -38,7 +38,6 @@ export default class Praise extends React.Component {
             <h4 className="ratingList">
               {p.ratings.map(r => <div className="rating">{r}</div>)}
             </h4>
-            {() => p.quote ? <div>{p.quote}</div> : null}
           </div>)))
         }
       </div>
