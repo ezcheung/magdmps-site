@@ -10,7 +10,7 @@ export default class Banner extends React.Component {
   render() {
     return (
       <div id="banner">
-        <h1>Anything Goes</h1>
+        <h1 id="bigTitle">Anything Goes</h1>
         <Navbar/>
       </div>
     )

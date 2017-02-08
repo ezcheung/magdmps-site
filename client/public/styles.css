@@ -2,6 +2,10 @@ body {
   background-color: rgb(116, 204, 242);
 }
 
+#bigTitle{
+  font-size: 3em;
+}
+
 #app {
   font-family: Sansita, sans-serif;
   min-width: 100%;
@@ -42,7 +46,7 @@ body {
 
 #spiel {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.25em;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
