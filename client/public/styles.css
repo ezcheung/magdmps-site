@@ -1,3 +1,8 @@
+@font-face {
+  font-family: titleFont;
+  src: url('./assets/PublicEnemyNF.otf');
+}
+
 body {
   background-color: rgb(116, 204, 242);
 }
@@ -7,7 +12,7 @@ body {
 }
 
 #app {
-  font-family: Sansita, sans-serif;
+  font-family: titleFont;
   min-width: 100%;
   min-height: 100%;
 }
