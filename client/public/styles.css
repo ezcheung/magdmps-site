@@ -30,6 +30,7 @@ body {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1.5em;
 }
 
 #aboutbtn{
@@ -89,4 +90,18 @@ body {
 
 .listTitle {
   text-align: center;
+  font-family: titleFont;
+  font-size: 1.5em;
+}
+
+.listMember {
+  font-family: Roboto Slab, serif;
+}
+
+.role{
+  display: inline;
+}
+
+.member{
+  display: inline;
 }

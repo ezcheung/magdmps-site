@@ -57,7 +57,8 @@ Publicity Designer - Eliza Le Roy-Lewis`.split('\n');
         <h3 className="listTitle">{title}</h3>
         {arr.map((p, i) => 
           <div className='listMember' key={i}>
-            {p}
+            <strong className='role'>{p.split('-')[0]}</strong>
+            <p className='member'>{'- ' + p.split(' -')[1]}</p>
           </div>
         )}
       </div>
