@@ -108,8 +108,19 @@ body {
 
 #ticketingPage{
   font-family: Roboto Slab, serif;
+  text-align: center;
 }
 
 .ticketingSpiel {
   margin-top: 10px;
+}
+
+#payForm {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ticketingTitle {
+  margin-left: auto;
+  margin-right: auto;
 }
