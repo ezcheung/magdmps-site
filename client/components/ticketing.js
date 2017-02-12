@@ -8,9 +8,27 @@ export default class Ticketing extends React.Component {
   render() {
     return (
       <div id="ticketingPage">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacus dui, bibendum id efficitur id, pretium sed nulla. Aenean congue, lorem at elementum tristique, quam massa ornare tortor, vitae dignissim lacus tortor a est. Aenean elit est, convallis vitae purus ut, auctor rhoncus mi. Donec viverra urna elit. Duis molestie posuere lectus. Vivamus tempor diam id ipsum maximus, lobortis volutpat eros hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi cursus, justo at ullamcorper posuere, neque eros vestibulum leo, mollis mattis enim neque eget tortor. Curabitur vestibulum nibh et ullamcorper egestas. Phasellus vestibulum ac metus id luctus. Praesent in porttitor massa.
-
-Vivamus vel sollicitudin urna. Curabitur tempor iaculis erat, ut dignissim urna pretium cursus. In velit enim, cursus sit amet purus in, suscipit ornare odio. Ut finibus consectetur mauris quis dapibus. Mauris lacinia tortor quis nunc imperdiet tristique. In tellus sem, aliquet vitae est quis, convallis mattis velit. Proin feugiat sapien vitae libero auctor, a euismod neque efficitur. Mauris gravida tellus et quam finibus, at rhoncus dolor efficitur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Donec eu hendrerit massa. Quisque eu orci at est ullamcorper interdum non sed est. Suspendisse sollicitudin neque vel sapien rutrum, sed viverra neque fringilla. Vivamus quis lectus odio. Quisque ultricies fermentum eleifend. Sed id semper lorem.
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick"/>
+        <input type="hidden" name="hosted_button_id" value="3EDV7YQPLYB4S"/>
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Showtimes"/>Showtimes</td></tr><tr><td><select name="os0">
+          <option value="Tuesday (21/2) - Concession">Tuesday (21/2) - Concession £5.00 GBP</option>
+          <option value="Tuesday (21/2)">Tuesday (21/2) £8.00 GBP</option>
+          <option value="Wednesday (22/2) - Concession">Wednesday (22/2) - Concession £5.00 GBP</option>
+          <option value="Wednesday (22/2)">Wednesday (22/2) £8.00 GBP</option>
+          <option value="Thursday (23/2) - Concession">Thursday (23/2) - Concession £5.00 GBP</option>
+          <option value="Thursday (23/2)">Thursday (23/2) £8.00 GBP</option>
+          <option value="Friday (24/2) - Concession">Friday (24/2) - Concession £5.00 GBP</option>
+          <option value="Friday (24/2)">Friday (24/2) £8.00 GBP</option>
+          <option value="Saturday (25/2) - Concession">Saturday (25/2) - Concession £5.00 GBP</option>
+          <option value="Saturday (25/2)">Saturday (25/2) £8.00 GBP</option>
+        </select> </td></tr>
+        </table>
+        <input type="hidden" name="currency_code" value="GBP"/>
+        <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!"/>
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1"/>
+        </form>
       </div>
       )
   }
