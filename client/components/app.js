@@ -4,6 +4,7 @@ import Banner from './banner';
 import About from './about';
 import Ticketing from './ticketing';
 import CastList from './castList';
+import Checkout from './checkout';
 
 export default class App extends React.Component {
   
@@ -27,6 +28,9 @@ export default class App extends React.Component {
     }
     if (this.state.currentPage === 'cast') {
       return <CastList/>;
+    }
+    if (this.state.currentPage === 'checkout') {
+      return <Checkout/>;
     }
   }
 
