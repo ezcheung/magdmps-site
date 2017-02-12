@@ -49,6 +49,7 @@ export default class Ticketing extends React.Component {
   spiel() {
     return (
       <div id="spiel" className="ticketingSpiel">
+        <p>Choose a showtime below to reserve your tickets to Anything Goes</p>
         <p>Tickets are available at full price (£8) or concession price (£5) for Camcard holders, over 60s, under 16s and Jobseekers</p>
         <p>Your name will be checked at the door to confirm your ticket purchase</p> 
         <p>Tickets will also be available at the door</p>
