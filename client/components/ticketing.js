@@ -25,15 +25,27 @@ export default class Ticketing extends React.Component {
         </select> </td></tr>
         </table>
         <input type="hidden" name="currency_code" value="GBP"/>
-        <input className="submitBtn" type="submit" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!"/>
+        <input className="submitBtn" type="submit" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!" value="Buy Now"/>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1"/>
+        <p className="redirectAlert">You will be redirected to PayPal for checkout</p>
       </form>
     )
   }
 //src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif"
+
+  spiel() {
+    return (
+      <div id="spiel" className="ticketingSpiel">
+        Tickets are available at full price (£8) or concession price (£5) for Camcard holders, over 60s, under 16s and Jobseekers.
+        Your name will be checked at the door to confirm your ticket purchase. Tickets will also be available at the door.
+      </div>
+    )
+  }
+
   render() {
     return (
       <div id="ticketingPage">
+        {this.spiel()}
         {this.payForm()}
       </div>
       )

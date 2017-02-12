@@ -105,3 +105,11 @@ body {
 .member{
   display: inline;
 }
+
+#ticketingPage{
+  font-family: Roboto Slab, serif;
+}
+
+.ticketingSpiel {
+  margin-top: 10px;
+}
