@@ -124,3 +124,25 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.redirectAlert {
+  font-size: 0.8em;
+}
+
+.submitBtn {
+  border-radius: 28px;
+  padding: 10px 20px 10px 20px;
+  background-color: #ffa114;
+  color: white;
+  margin-top: 10px;
+}
+
+.submitBtn:hover{
+  background-color: #ffb74a;
+}
+
+#quantitySelect {
+  width: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
