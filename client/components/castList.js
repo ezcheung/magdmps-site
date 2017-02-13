@@ -14,7 +14,6 @@ Elisha Whitney - Joe Pieri
 Captain - Freddie Raymond
 Purser - Sam Ashbridge
 Steward - Anna Culkin
-Purity - Maddy Cummins
 Bishop Dobson - Ollie Hayes
 Reporter - Kasia Ruszkowski
 Cameraman - Katie Wickham
