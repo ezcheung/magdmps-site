@@ -1,19 +1,26 @@
 import React from 'react';
 
+/**
+* The ticketing component, handling the redirect to PayPal
+*/
+
 export default class Ticketing extends React.Component {
   constructor(props) {
     super(props)
+    // Keeps track of the desired quantity
     this.state = {
       quantity: '1'
     }
   }
 
   handleInput(event) {
+    // Only changes if the input is a valid integer
     if(Number.isInteger(Number(event.target.value))) this.setState({quantity: event.target.value});
   }
 
   payForm() {
     return (
+      // Standard PayPal button with the added quantity changes and options
       <div id="payForm">
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick"/>

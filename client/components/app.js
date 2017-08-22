@@ -1,3 +1,8 @@
+/**
+* The head component that is rendered on the page,
+* using the URL 'page' parameter to decide which components to render
+*/
+
 import React from 'react';
 
 import Banner from './banner';
@@ -11,14 +16,23 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      // Defaults to 'about' if no page is given in the URL
       currentPage: this.props.params.page || 'about'
     };
   }
+
+  /**
+  * Function for switching pages, to be passed down to the navbar
+  */
 
   navTo(page) {
     this.setState({currentPage: page});
   }
 
+  /**
+  * Picks a component to render based on the currentPage variable
+  */
+  
   content() {
     if (this.state.currentPage === 'about') {
       return <About/>;

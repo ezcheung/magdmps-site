@@ -1,3 +1,8 @@
+/**
+* Component for the 'about' spiel
+* Mostly just base JSX
+*/
+
 import React from 'react';
 import Praise from './praise';
 

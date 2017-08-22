@@ -1,3 +1,7 @@
+/**
+* Banner to be rendered on all pages, above the content
+*/
+
 import React from 'react';
 import Navbar from './navbar';
 

@@ -1,9 +1,15 @@
+/**
+* Component for displaying the cast list
+*/
+
 import React from 'react';
 
 export default class CastList extends React.Component {
   constructor(props) {
     super(props);
 
+  // Note that each list variable is an array, split by newline characters
+  // Thus, the format for a cast member must be 'Role - Name\n'
     this.cast = `Billy Crocker - Adam Long
 Moonface Martin - Alex Franklin
 Reno Sweeney - Martha Cook
@@ -49,6 +55,13 @@ Lighting Designer - Daniel Lawson
 Publicity Designer - Eliza Le Roy-Lewis`.split('\n');
 
   }
+
+  /**
+  * Function for making a cast list; splits into roles and names
+  * On where the '-' character is
+  * @param {array} arr - The array to make a list out of
+  * @param {String} title - The title of the list
+  */
 
   makeList(arr, title) {
     return (

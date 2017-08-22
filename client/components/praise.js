@@ -1,8 +1,14 @@
+/**
+* All the praise for past projects
+*/
+
 import React from 'react';
 
 export default class Praise extends React.Component {
   constructor(props) {
     super(props);
+    // Praises stored in an object array
+    // Each is formatted as {title: String, ratings: String Array}
     this.praises = [
       {
         title: "Godspell (2016)",
@@ -27,6 +33,10 @@ export default class Praise extends React.Component {
     ]
   }
 
+  /**
+  * Converts the praise array into renderable JSX
+  */
+  
   praiseList() {
     return (
       <div id="praiseList">
